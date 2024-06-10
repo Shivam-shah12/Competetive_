@@ -11,6 +11,7 @@ vector<vector<int>> getSubarray(vector<int>arr)
       {
         temp.push_back(arr[k]);
       }
+      if(temp.size() > 0)
       all.push_back(temp);
     }
   }
